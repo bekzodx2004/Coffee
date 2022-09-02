@@ -1,4 +1,90 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+.sayt {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  background: #f3d7b7;
+}
+.sayt > .header {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5px;
+}
+.sayt > .header > .header__icon {
+  margin: 20px;
+}
+.sayt > .header > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sayt > .header > ul > li {
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+  border-radius: 5px;
+}
+.sayt > .header > ul > li > a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  /* identical to box height */
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.sayt > .header > ul > li > a:hover {
+  text-shadow: 0px 0px 15px;
+}
+.sayt > .footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.sayt > .footer > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sayt > .footer > ul > li {
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+  border-radius: 5px;
+}
+.sayt > .footer > ul > li > a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  /* identical to box height */
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.sayt > .footer > ul > li > a:hover {
+  text-shadow: 0px 0px 15px;
+}
+.sayt > .footer > .footer__websites > a {
+  margin: 15px;
+}
+.sayt > .footer > .footer__websites > a > i {
+  color: #333333;
 }/*# sourceMappingURL=style.css.map */
