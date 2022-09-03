@@ -3,8 +3,6 @@
   padding: 0;
 
   font-family: roboto;
-
-
 }
 
 @font-face {
@@ -198,39 +196,121 @@ body {
       flex-direction: row-reverse;
     }
 
-    .yaproq1{
+    .yaproq1 {
       max-width: 18%;
       position: absolute;
       top: 1%;
       left: -20px;
-
     }
 
-    .yaproq2{
+    .yaproq2 {
       max-width: 18%;
       position: absolute;
       top: 35%;
       right: -20px;
       z-index: 2;
-
     }
-    .yaproq3{
+    .yaproq3 {
       max-width: 8%;
       position: absolute;
       top: 47%;
       z-index: 1;
       right: -20px;
-
     }
 
-    .yaproq4{
+    .yaproq4 {
       max-width: 12%;
       position: absolute;
       bottom: 10%;
       left: -20px;
+    }
+  }
+  & > .choose {
+    background: repeating-linear-gradient(#c2905b 0% 75%, white 75% 100%);
 
+    max-width: 1400px;
+    width: 98%;
+    margin: auto;
+    padding-top: 50px;
+    & > h2 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 59px;
+      /* identical to box height */
+
+      text-align: center;
+      font-variant: small-caps;
+
+      color: #ffffff;
+    }
+    & > p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      /* or 175% */
+      margin-top: 10px;
+      text-align: center;
+      max-width: 581px;
+      width: 95%;
+      margin: auto;
+
+      color: #ffffff;
     }
 
+    & > .choose__block {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+
+      &>.choose__block__card{
+        max-width: 433px;
+        width: 100%;
+        margin: 10px;
+        position: relative;
+
+        &>:nth-child(1){
+          max-width: 433px;
+          width: 100%;
+        }
+
+        &>h3{
+          font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+font-variant: small-caps;
+margin-top: 28px;
+color: #333333;
+        }
+        &>p{
+          
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #333333;
+margin-top: 10px;
+        }
+
+        &>.yozuv{
+          position: absolute;
+          left: -40px;
+          top: -40px;
+        }
+      }
+    }
   }
 
   & > .footer {
@@ -242,42 +322,41 @@ body {
     padding-bottom: 20px;
     background-color: #f3d7b7;
 
-
     & > ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-  
-        & > li {
-          padding: 10px;
-          margin: 10px;
-          list-style: none;
-          border-radius: 5px;
-          & > a {
-            text-decoration: none;
-            font-family: "Roboto";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 12px;
-            /* identical to box height */
-            line-height: 14px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-  
-            color: #333333;
-          }
-          & > a:hover {
-            text-shadow: 0px 0px 15px;
-          }
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      & > li {
+        padding: 10px;
+        margin: 10px;
+        list-style: none;
+        border-radius: 5px;
+        & > a {
+          text-decoration: none;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          /* identical to box height */
+          line-height: 14px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+
+          color: #333333;
         }
-      }
-      &>.footer__websites{
-        &>a{
-            margin: 15px;
-            &>i{
-                color: #333333;
-            }
+        & > a:hover {
+          text-shadow: 0px 0px 15px;
         }
       }
     }
+    & > .footer__websites {
+      & > a {
+        margin: 15px;
+        & > i {
+          color: #333333;
+        }
+      }
+    }
+  }
 }

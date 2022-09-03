@@ -202,6 +202,80 @@ body {
   bottom: 10%;
   left: -20px;
 }
+.sayt > .choose {
+  background: repeating-linear-gradient(#c2905b 0% 75%, white 75% 100%);
+  max-width: 1400px;
+  width: 98%;
+  margin: auto;
+  padding-top: 50px;
+}
+.sayt > .choose > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  text-align: center;
+  font-variant: small-caps;
+  color: #ffffff;
+}
+.sayt > .choose > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  margin-top: 10px;
+  text-align: center;
+  max-width: 581px;
+  width: 95%;
+  margin: auto;
+  color: #ffffff;
+}
+.sayt > .choose > .choose__block {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sayt > .choose > .choose__block > .choose__block__card {
+  max-width: 433px;
+  width: 100%;
+  margin: 10px;
+  position: relative;
+}
+.sayt > .choose > .choose__block > .choose__block__card > :nth-child(1) {
+  max-width: 433px;
+  width: 100%;
+}
+.sayt > .choose > .choose__block > .choose__block__card > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  font-variant: small-caps;
+  margin-top: 28px;
+  color: #333333;
+}
+.sayt > .choose > .choose__block > .choose__block__card > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: #333333;
+  margin-top: 10px;
+}
+.sayt > .choose > .choose__block > .choose__block__card > .yozuv {
+  position: absolute;
+  left: -40px;
+  top: -40px;
+}
 .sayt > .footer {
   display: flex;
   justify-content: space-around;
