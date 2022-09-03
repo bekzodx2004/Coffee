@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Roboto;
-  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
 }
 body {
   background: #e5e5e5;
@@ -203,7 +203,7 @@ body {
   left: -20px;
 }
 .sayt > .choose {
-  background: repeating-linear-gradient(#c2905b 0% 75%, white 75% 100%);
+  background: repeating-linear-gradient(#c2905b 0% 72%, white 72% 100%);
   max-width: 1400px;
   width: 98%;
   margin: auto;
@@ -275,6 +275,123 @@ body {
   position: absolute;
   left: -40px;
   top: -40px;
+}
+.sayt > .works {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+  background: #0a775f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sayt > .works > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  text-align: center;
+  font-variant: small-caps;
+  margin-bottom: 70px;
+  color: #ffffff;
+}
+.sayt > .works > .works__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sayt > .works > .works__block > .works__block__card {
+  max-width: 433px;
+  width: 100%;
+  margin: 10px;
+  position: relative;
+}
+.sayt > .works > .works__block > .works__block__card > .chiziqli {
+  display: flex;
+  align-items: center;
+}
+.sayt > .works > .works__block > .works__block__card > .chiziqli > :nth-child(1) {
+  width: 60px;
+  height: 60px;
+  background: #f8f8f2;
+  border: 4px solid #c99b67;
+}
+.sayt > .works > .works__block > .works__block__card > .chiziqli > :nth-child(2) {
+  height: 2px;
+  max-width: 370px;
+  width: 100%;
+  border-top: 7px dashed #c99b67;
+}
+.sayt > .works > .works__block > .works__block__card > .works__block__card__text {
+  max-width: 433px;
+  width: 100%;
+  background: #f8f8f2;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.sayt > .works > .works__block > .works__block__card > .works__block__card__text > h2 {
+  align-self: flex-end;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+  font-variant: small-caps;
+  color: #333333;
+  opacity: 0.8;
+}
+.sayt > .works > .works__block > .works__block__card > .works__block__card__text > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  font-variant: small-caps;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  color: #333333;
+  width: 231px;
+}
+.sayt > .works > .works__block > .works__block__card > .works__block__card__text > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: #333333;
+}
+.sayt > .works > .works__block > .works__block__card > :nth-child(3) {
+  position: absolute;
+  top: -160px;
+  right: 35px;
+}
+.sayt > .works > button {
+  width: 193px;
+  height: 51px;
+  background: #c99b67;
+  border-radius: 100px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  color: #ffffff;
 }
 .sayt > .footer {
   display: flex;
