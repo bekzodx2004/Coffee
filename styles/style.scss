@@ -1,31 +1,243 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: roboto;
 }
 
 @font-face {
   font-family: Roboto;
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
+body {
+  background: #e5e5e5;
+}
 
 .sayt {
+  overflow: hidden;
   max-width: 1440px;
   width: 100%;
   margin: auto;
-  background: #f3d7b7;
+  background: #ffffff;
   & > .header {
-    
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    background: #f3d7b7;
+    & > .header__top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 5px;
+      & > .header__icon {
+        margin: 20px;
+      }
+      & > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
 
-    align-items: center;
-    padding-top: 5px;
+        & > li {
+          padding: 10px;
+          margin: 10px;
+          list-style: none;
+          border-radius: 5px;
+          & > a {
+            text-decoration: none;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            /* identical to box height */
+            line-height: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
 
-    & > .header__icon {
-      margin: 20px;
+            color: #333333;
+          }
+          & > a:hover {
+            text-shadow: 0px 0px 15px;
+          }
+        }
+      }
     }
+    & > .header__bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      & > .header__bottom__text {
+        max-width: 590px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+        & > div {
+          max-width: 447px;
+          width: 100%;
+
+          & > h2 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 75px;
+
+            color: #000000;
+          }
+
+          & > p {
+            margin-top: 24px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+
+            color: #000000;
+
+            mix-blend-mode: normal;
+            margin-bottom: 34px;
+          }
+
+          & > button {
+            width: 193px;
+            height: 51px;
+            border: none;
+            background: #0a775f;
+            border-radius: 100px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+            text-align: center;
+            letter-spacing: 1px;
+            font-variant: small-caps;
+
+            color: #ffffff;
+          }
+        }
+      }
+      & > .header__bottom__img {
+        position: relative;
+
+        & > :nth-child(1) {
+          max-width: 710px;
+          width: 100%;
+        }
+
+        & > :nth-child(2) {
+          position: absolute;
+          top: -80px;
+          left: -80px;
+        }
+      }
+    }
+  }
+  & > .collection {
+    background: #f8f8f2;
+    margin: 20px;
+    padding-top: 50px;
+    position: relative;
+
+    & > h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 59px;
+      /* identical to box height */
+
+      text-align: center;
+      font-variant: small-caps;
+      margin-bottom: 80px;
+      color: #000000;
+    }
+    & > .collection__block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+
+      & > img {
+        max-width: 450px;
+      }
+      & > div {
+        margin: 20px;
+
+        & > h3 {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 48px;
+          line-height: 56px;
+          font-variant: small-caps;
+
+          color: #333333;
+        }
+        & > p {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 34px;
+          /* or 155% */
+
+          color: #333333;
+          max-width: 390px;
+          margin-top: 10px;
+        }
+      }
+    }
+    & > :nth-child(3) {
+      flex-direction: row-reverse;
+    }
+    & > :nth-child(5) {
+      flex-direction: row-reverse;
+    }
+
+    .yaproq1{
+      max-width: 18%;
+      position: absolute;
+      top: 1%;
+      left: -20px;
+
+    }
+
+    .yaproq2{
+      max-width: 18%;
+      position: absolute;
+      top: 35%;
+      right: -20px;
+      z-index: 2;
+
+    }
+    .yaproq3{
+      max-width: 8%;
+      position: absolute;
+      top: 47%;
+      z-index: 1;
+      right: -20px;
+
+    }
+
+    .yaproq4{
+      max-width: 12%;
+      position: absolute;
+      bottom: 10%;
+      left: -20px;
+
+    }
+
+  }
+
+  & > .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f3d7b7;
+
     & > ul {
       display: flex;
       flex-wrap: wrap;
@@ -54,49 +266,13 @@
         }
       }
     }
-  }
-
-  & > .footer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-
-    & > ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-  
-        & > li {
-          padding: 10px;
-          margin: 10px;
-          list-style: none;
-          border-radius: 5px;
-          & > a {
-            text-decoration: none;
-            font-family: "Roboto";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 12px;
-            /* identical to box height */
-            line-height: 14px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-  
-            color: #333333;
-          }
-          & > a:hover {
-            text-shadow: 0px 0px 15px;
-          }
-        }
-      }
-      &>.footer__websites{
-        &>a{
-            margin: 15px;
-            &>i{
-                color: #333333;
-            }
+    & > .footer__websites {
+      & > a {
+        margin: 15px;
+        & > i {
+          color: #333333;
         }
       }
     }
+  }
 }

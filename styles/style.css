@@ -1,43 +1,50 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: roboto;
 }
 
 @font-face {
   font-family: Roboto;
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
+body {
+  background: #e5e5e5;
+}
+
 .sayt {
+  overflow: hidden;
   max-width: 1440px;
   width: 100%;
   margin: auto;
-  background: #f3d7b7;
+  background: #ffffff;
 }
 .sayt > .header {
-  margin: auto;
+  background: #f3d7b7;
+}
+.sayt > .header > .header__top {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding-top: 5px;
 }
-.sayt > .header > .header__icon {
+.sayt > .header > .header__top > .header__icon {
   margin: 20px;
 }
-.sayt > .header > ul {
+.sayt > .header > .header__top > ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.sayt > .header > ul > li {
+.sayt > .header > .header__top > ul > li {
   padding: 10px;
   margin: 10px;
   list-style: none;
   border-radius: 5px;
 }
-.sayt > .header > ul > li > a {
+.sayt > .header > .header__top > ul > li > a {
   text-decoration: none;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -47,14 +54,162 @@
   text-transform: uppercase;
   color: #333333;
 }
-.sayt > .header > ul > li > a:hover {
+.sayt > .header > .header__top > ul > li > a:hover {
   text-shadow: 0px 0px 15px;
+}
+.sayt > .header > .header__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sayt > .header > .header__bottom > .header__bottom__text {
+  max-width: 590px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.sayt > .header > .header__bottom > .header__bottom__text > div {
+  max-width: 447px;
+  width: 100%;
+}
+.sayt > .header > .header__bottom > .header__bottom__text > div > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #000000;
+}
+.sayt > .header > .header__bottom > .header__bottom__text > div > p {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-bottom: 34px;
+}
+.sayt > .header > .header__bottom > .header__bottom__text > div > button {
+  width: 193px;
+  height: 51px;
+  border: none;
+  background: #0a775f;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  color: #ffffff;
+}
+.sayt > .header > .header__bottom > .header__bottom__img {
+  position: relative;
+}
+.sayt > .header > .header__bottom > .header__bottom__img > :nth-child(1) {
+  max-width: 710px;
+  width: 100%;
+}
+.sayt > .header > .header__bottom > .header__bottom__img > :nth-child(2) {
+  position: absolute;
+  top: -80px;
+  left: -80px;
+}
+.sayt > .collection {
+  background: #f8f8f2;
+  margin: 20px;
+  padding-top: 50px;
+  position: relative;
+}
+.sayt > .collection > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  text-align: center;
+  font-variant: small-caps;
+  margin-bottom: 80px;
+  color: #000000;
+}
+.sayt > .collection > .collection__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sayt > .collection > .collection__block > img {
+  max-width: 450px;
+}
+.sayt > .collection > .collection__block > div {
+  margin: 20px;
+}
+.sayt > .collection > .collection__block > div > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  font-variant: small-caps;
+  color: #333333;
+}
+.sayt > .collection > .collection__block > div > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  /* or 155% */
+  color: #333333;
+  max-width: 390px;
+  margin-top: 10px;
+}
+.sayt > .collection > :nth-child(3) {
+  flex-direction: row-reverse;
+}
+.sayt > .collection > :nth-child(5) {
+  flex-direction: row-reverse;
+}
+.sayt > .collection .yaproq1 {
+  max-width: 18%;
+  position: absolute;
+  top: 1%;
+  left: -20px;
+}
+.sayt > .collection .yaproq2 {
+  max-width: 18%;
+  position: absolute;
+  top: 35%;
+  right: -20px;
+  z-index: 2;
+}
+.sayt > .collection .yaproq3 {
+  max-width: 8%;
+  position: absolute;
+  top: 47%;
+  z-index: 1;
+  right: -20px;
+}
+.sayt > .collection .yaproq4 {
+  max-width: 12%;
+  position: absolute;
+  bottom: 10%;
+  left: -20px;
 }
 .sayt > .footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f3d7b7;
 }
 .sayt > .footer > ul {
   display: flex;
