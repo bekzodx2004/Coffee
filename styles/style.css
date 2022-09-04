@@ -23,9 +23,12 @@ body {
   background: #f3d7b7;
 }
 .sayt > .header > .header__top {
+  max-width: 1340px;
+  width: 95%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-top: 5px;
 }
@@ -64,36 +67,35 @@ body {
 }
 .sayt > .header > .header__bottom > .header__bottom__text {
   max-width: 590px;
-  width: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  padding-left: 10%;
 }
-.sayt > .header > .header__bottom > .header__bottom__text > div {
-  max-width: 447px;
-  width: 100%;
-}
-.sayt > .header > .header__bottom > .header__bottom__text > div > h2 {
+.sayt > .header > .header__bottom > .header__bottom__text > h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 75px;
+  max-width: 447px;
   color: #000000;
 }
-.sayt > .header > .header__bottom > .header__bottom__text > div > p {
+.sayt > .header > .header__bottom > .header__bottom__text > p {
   margin-top: 24px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   /* or 150% */
+  max-width: 447px;
   color: #000000;
   mix-blend-mode: normal;
   margin-bottom: 34px;
 }
-.sayt > .header > .header__bottom > .header__bottom__text > div > button {
+.sayt > .header > .header__bottom > .header__bottom__text > button {
   width: 193px;
   height: 51px;
   border: none;
@@ -393,6 +395,221 @@ body {
   font-variant: small-caps;
   color: #ffffff;
 }
+.sayt > .commitment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 140px;
+  padding-bottom: 216px;
+  position: relative;
+  opacity: 1;
+  margin: 20px;
+  background: #f8f8f2;
+}
+.sayt > .commitment > :nth-child(1) {
+  max-width: 360px;
+  width: 90%;
+}
+.sayt > .commitment > :nth-child(2) {
+  max-width: 626px;
+  width: 100%;
+  margin: 20px;
+}
+.sayt > .commitment > :nth-child(3) {
+  max-width: 12%;
+  position: absolute;
+  left: -20px;
+  top: 10%;
+}
+.sayt > .quality {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #c99b67;
+  padding-top: 60px;
+  padding-bottom: 78px;
+  margin: 20px;
+  margin-top: 140px;
+}
+.sayt > .quality > .quality__card {
+  max-width: 640px;
+  width: 100%;
+  margin: 38px;
+}
+.sayt > .quality > .quality__card > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  font-variant: small-caps;
+  color: #ffffff;
+}
+.sayt > .quality > .quality__card > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.sayt > .quality > img {
+  max-width: 500px;
+  width: 100%;
+  margin-top: -140px;
+  opacity: 2;
+}
+.sayt > .country {
+  margin: 20px;
+  margin-bottom: 50px;
+  margin-top: 0;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  background: #0a775f;
+}
+.sayt > .country > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  text-align: center;
+  font-variant: small-caps;
+  color: #ffffff;
+  margin-bottom: 70px;
+}
+.sayt > .country > .country__block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sayt > .country > .country__block > .country__block__card {
+  background: #f8f8f2;
+  margin: 10px;
+  max-width: 433px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sayt > .country > .country__block > .country__block__card > img {
+  align-self: flex-end;
+  margin-right: 35px;
+  margin-top: 25px;
+}
+.sayt > .country > .country__block > .country__block__card > h2 {
+  max-width: 230px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  font-variant: small-caps;
+  color: #333333;
+}
+.sayt > .country > .country__block > .country__block__card > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /* or 156% */
+  color: #333333;
+}
+.sayt > .country > .country__block > :nth-child(1) > h2 {
+  margin-top: -60px;
+}
+.sayt > .plan__top {
+  margin: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #0a775f;
+}
+.sayt > .plan__top > .works__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sayt > .plan__top > .works__block > .works__block__card {
+  max-width: 433px;
+  width: 100%;
+  margin: 10px;
+  position: relative;
+}
+.sayt > .plan__top > .works__block > .works__block__card > .chiziqli {
+  display: flex;
+  align-items: center;
+}
+.sayt > .plan__top > .works__block > .works__block__card > .chiziqli > :nth-child(1) {
+  width: 60px;
+  height: 60px;
+  background: #f8f8f2;
+  border: 4px solid #c99b67;
+}
+.sayt > .plan__top > .works__block > .works__block__card > .chiziqli > :nth-child(2) {
+  height: 2px;
+  max-width: 370px;
+  width: 100%;
+  border-top: 7px dashed #c99b67;
+}
+.sayt > .plan__top > .works__block > .works__block__card > .works__block__card__text {
+  max-width: 433px;
+  width: 100%;
+  background: #f8f8f2;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.sayt > .plan__top > .works__block > .works__block__card > .works__block__card__text > h2 {
+  align-self: flex-end;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+  font-variant: small-caps;
+  color: #333333;
+  opacity: 0.8;
+}
+.sayt > .plan__top > .works__block > .works__block__card > .works__block__card__text > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  font-variant: small-caps;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  color: #333333;
+  width: 231px;
+}
+.sayt > .plan__top > .works__block > .works__block__card > .works__block__card__text > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: #333333;
+}
+.sayt > .plan__top > .works__block > .works__block__card > :nth-child(3) {
+  position: absolute;
+  top: -160px;
+  right: 35px;
+}
 .sayt > .footer {
   display: flex;
   justify-content: space-around;
@@ -432,5 +649,9 @@ body {
   margin: 15px;
 }
 .sayt > .footer > .footer__websites > a > i {
+  font-size: 30px;
   color: #333333;
+}
+.sayt > .footer > .footer__websites > a > i:hover {
+  text-shadow: 0 0 10px #0a775f;
 }/*# sourceMappingURL=style.css.map */

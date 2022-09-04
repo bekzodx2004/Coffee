@@ -23,9 +23,12 @@ body {
   & > .header {
     background: #f3d7b7;
     & > .header__top {
+      max-width: 1340px;
+      width: 95%;
+      margin: auto;
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       padding-top: 5px;
       & > .header__icon {
@@ -66,57 +69,54 @@ body {
 
       & > .header__bottom__text {
         max-width: 590px;
-        width: 100%;
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
+        width: 100%;
         padding: 20px;
         box-sizing: border-box;
-        & > div {
+        padding-left: 10%;
+
+        & > h2 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 64px;
+          line-height: 75px;
           max-width: 447px;
-          width: 100%;
+          color: #000000;
+        }
 
-          & > h2 {
-            font-style: normal;
-            font-weight: 700;
-            font-size: 64px;
-            line-height: 75px;
+        & > p {
+          margin-top: 24px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          /* or 150% */
+          max-width: 447px;
+          color: #000000;
 
-            color: #000000;
-          }
+          mix-blend-mode: normal;
+          margin-bottom: 34px;
+        }
 
-          & > p {
-            margin-top: 24px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-            /* or 150% */
+        & > button {
+          width: 193px;
+          height: 51px;
+          border: none;
+          background: #0a775f;
+          border-radius: 100px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          /* identical to box height */
 
-            color: #000000;
+          text-align: center;
+          letter-spacing: 1px;
+          font-variant: small-caps;
 
-            mix-blend-mode: normal;
-            margin-bottom: 34px;
-          }
-
-          & > button {
-            width: 193px;
-            height: 51px;
-            border: none;
-            background: #0a775f;
-            border-radius: 100px;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 19px;
-            /* identical to box height */
-
-            text-align: center;
-            letter-spacing: 1px;
-            font-variant: small-caps;
-
-            color: #ffffff;
-          }
+          color: #ffffff;
         }
       }
       & > .header__bottom__img {
@@ -443,6 +443,257 @@ body {
     }
   }
 
+  & > .commitment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 216px;
+    position: relative;
+    opacity: 1;
+
+    margin: 20px;
+    background: #f8f8f2;
+
+    &>:nth-child(1){
+      max-width: 360px;
+      width: 90%;
+    }
+    & > :nth-child(2) {
+      max-width: 626px;
+      width: 100%;
+      margin: 20px;
+    }
+
+    & > :nth-child(3) {
+      max-width: 12%;
+      position: absolute;
+      left: -20px;
+      top: 10%;
+    }
+  }
+
+  & > .quality {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #c99b67;
+    padding-top: 60px;
+    padding-bottom: 78px;
+    margin: 20px;
+    margin-top: 140px;
+
+    & > .quality__card {
+      max-width: 640px;
+      width: 100%;
+      margin: 38px;
+      & > h2 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 59px;
+        font-variant: small-caps;
+
+        color: #ffffff;
+      }
+      & > p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        /* or 167% */
+
+        color: #ffffff;
+
+        mix-blend-mode: normal;
+        opacity: 0.8;
+      }
+    }
+
+    & > img {
+      max-width: 500px;
+      width: 100%;
+      margin-top: -140px;
+      opacity: 2;
+    }
+  }
+  & > .country {
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    background: #0a775f;
+
+    & > h2 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 59px;
+      /* identical to box height */
+
+      text-align: center;
+      font-variant: small-caps;
+
+      color: #ffffff;
+      margin-bottom: 70px;
+    }
+
+    & > .country__block {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      & > .country__block__card {
+        background: #f8f8f2;
+        margin: 10px;
+        max-width: 433px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        padding-bottom: 40px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        & > img {
+          align-self: flex-end;
+          margin-right: 35px;
+          margin-top: 25px;
+        }
+
+        & > h2 {
+          max-width: 230px;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 47px;
+          font-variant: small-caps;
+
+          color: #333333;
+        }
+        & > p {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+       
+          /* or 156% */
+
+          color: #333333;
+        }
+      }
+
+      &>:nth-child(1){
+        &>h2{
+          margin-top: -60px;
+        }
+      }
+    }
+  }
+
+&>  .plan__top{
+  margin: 20px;
+
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #0a775f;
+    & > .works__block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      & > .works__block__card {
+        max-width: 433px;
+        width: 100%;
+        margin: 10px;
+
+        position: relative;
+
+        & > .chiziqli {
+          display: flex;
+          align-items: center;
+          & > :nth-child(1) {
+            width: 60px;
+            height: 60px;
+
+            background: #f8f8f2;
+            border: 4px solid #c99b67;
+          }
+          & > :nth-child(2) {
+            height: 2px;
+            max-width: 370px;
+            width: 100%;
+            border-top: 7px dashed #c99b67;
+          }
+        }
+
+        & > .works__block__card__text {
+          max-width: 433px;
+          width: 100%;
+          background: #f8f8f2;
+          box-sizing: border-box;
+          padding: 20px;
+          padding-bottom: 40px;
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          & > h2 {
+            align-self: flex-end;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 75px;
+            /* identical to box height */
+
+            font-variant: small-caps;
+
+            color: #333333;
+
+            opacity: 0.8;
+          }
+          & > h3 {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 47px;
+            font-variant: small-caps;
+            margin-top: 45px;
+            margin-bottom: 10px;
+            color: #333333;
+            width: 231px;
+          }
+          & > p {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            /* or 156% */
+
+            color: #333333;
+          }
+        }
+
+        & > :nth-child(3) {
+          position: absolute;
+          top: -160px;
+          right: 35px;
+        }
+      }
+    }
+  }
+
   & > .footer {
     display: flex;
     justify-content: space-around;
@@ -484,7 +735,12 @@ body {
       & > a {
         margin: 15px;
         & > i {
+          font-size: 30px;
           color: #333333;
+        }
+
+        & > i:hover {
+          text-shadow: 0 0 10px #0a775f;
         }
       }
     }
