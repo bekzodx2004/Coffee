@@ -1,1 +1,28 @@
-/*# sourceMappingURL=responsive.css.map */
+@media screen and (max-width: 1400px) {
+  .sayt > .choose {
+    background: #c2905b !important;
+    margin-bottom: 20px;
+  }
+  .sayt > .choose > .choose__block > .choose__block__card {
+    max-width: 390px;
+  }
+  .sayt > .works > .works__block > .works__block__card {
+    max-width: 390px;
+  }
+  .sayt > .works > .works__block > .works__block__card > :nth-child(3) {
+    top: -30px;
+    left: 80px;
+  }
+  .sayt > .works > .works__block > .works__block__card > .works__block__card__text {
+    min-height: 424px;
+  }
+  .sayt > .country > .country__block > .country__block__card {
+    max-width: 390px;
+  }
+  .sayt > .plan__top > .works__block > .works__block__card {
+    max-width: 390px !important;
+  }
+  .sayt > .plan__top > .works__block > .works__block__card > .works__block__card__text {
+    min-height: 424px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

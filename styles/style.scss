@@ -262,7 +262,7 @@ body {
     }
 
     & > .choose__block {
-      padding-top: 70px;
+      padding-top: 50px;
       padding-bottom: 70px;
       display: flex;
       flex-wrap: wrap;
@@ -273,7 +273,7 @@ body {
         width: 100%;
         margin: 10px;
         position: relative;
-
+        margin-top: 30px;
         & > :nth-child(1) {
           max-width: 433px;
           width: 100%;
@@ -363,8 +363,7 @@ body {
         }
 
         & > .works__block__card__text {
-          max-width: 433px;
-          width: 100%;
+        
           background: #f8f8f2;
           box-sizing: border-box;
           padding: 20px;
@@ -637,8 +636,7 @@ body {
         }
 
         & > .works__block__card__text {
-          max-width: 433px;
-          width: 100%;
+      
           background: #f8f8f2;
           box-sizing: border-box;
           padding: 20px;
