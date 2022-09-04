@@ -610,6 +610,194 @@ body {
   top: -160px;
   right: 35px;
 }
+.sayt > .plan__bottom {
+  margin: 20px;
+  margin-top: 0;
+  background: #f8f8f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 10%;
+  position: relative;
+}
+.sayt > .plan__bottom > .plan__bottom__nav {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.sayt > .plan__bottom > .plan__bottom__nav > a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+  padding-bottom: 5px;
+  font-variant: small-caps;
+  text-decoration: none;
+  margin-bottom: 35px;
+  color: #555555;
+  border-bottom: 3px dashed transparent;
+}
+.sayt > .plan__bottom > .plan__bottom__nav > a:hover {
+  color: #000000;
+  border-color: #c99b67;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown {
+  margin: 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__head > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  font-variant: small-caps;
+  color: #000000;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__head > i {
+  font-size: 30px;
+  margin-right: 24px;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body > .dropdown__body__card {
+  width: 208px;
+  height: 220px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-top: 30px;
+  margin-top: 20px;
+  background: #c6dcd1;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body > .dropdown__body__card > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  font-variant: small-caps;
+  color: #333333;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body > .dropdown__body__card > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  margin-top: 10px;
+  margin-right: 12px;
+  color: #333333;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body > .yashil {
+  background: #0a775f;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body > .yashil > h3 {
+  color: #ffffff;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body > .yashil > p {
+  margin-top: 10px;
+  color: #ffffff;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .order {
+  max-width: 640px;
+  width: 95%;
+  background: #c99b67;
+  margin: auto;
+  margin-top: 90px;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .order > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .order > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  /* or 142% */
+  color: #ffffff;
+  margin-top: 14px;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .order > p > font {
+  color: #333333;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > button {
+  width: 175px;
+  height: 51px;
+  background: #0a775f;
+  border-radius: 100px;
+  border: none;
+  align-self: flex-end;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  color: #ffffff;
+  margin: 20px;
+}
+.sayt > .plan__bottom > :nth-child(3) {
+  right: -20px;
+  top: 166px;
+  width: 10%;
+  opacity: 5;
+}
+.sayt > .plan__bottom > :nth-child(4) {
+  right: -20px;
+  top: 176px;
+  width: 10%;
+  opacity: 4;
+}
+.sayt > .plan__bottom > :nth-child(5) {
+  left: -20px;
+  top: 714px;
+  width: 10%;
+  opacity: 4;
+}
+.sayt > .plan__bottom > :nth-child(6) {
+  left: -20px;
+  top: 1466px;
+  width: 5%;
+  opacity: 4;
+}
+.sayt > .plan__bottom > img {
+  position: absolute;
+  width: 18%;
+}
 .sayt > .footer {
   display: flex;
   justify-content: space-around;
