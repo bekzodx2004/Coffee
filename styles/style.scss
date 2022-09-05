@@ -135,6 +135,8 @@ body {
       }
     }
   }
+
+  // HOME
   & > .collection {
     background: #f8f8f2;
     margin: 20px;
@@ -363,7 +365,6 @@ body {
         }
 
         & > .works__block__card__text {
-        
           background: #f8f8f2;
           box-sizing: border-box;
           padding: 20px;
@@ -441,7 +442,9 @@ body {
       color: #ffffff;
     }
   }
+  // HOME
 
+  // ABOUT US
   & > .commitment {
     display: flex;
     flex-wrap: wrap;
@@ -472,7 +475,6 @@ body {
       top: 10%;
     }
   }
-
   & > .quality {
     display: flex;
     flex-wrap: wrap;
@@ -598,7 +600,9 @@ body {
       }
     }
   }
+  // ABOUT US
 
+  // CREATE PLAN
   & > .plan__top {
     margin: 20px;
 
@@ -636,7 +640,6 @@ body {
         }
 
         & > .works__block__card__text {
-      
           background: #f8f8f2;
           box-sizing: border-box;
           padding: 20px;
@@ -691,7 +694,6 @@ body {
       }
     }
   }
-
   & > .plan__bottom {
     margin: 20px;
     margin-top: 0;
@@ -908,6 +910,7 @@ body {
       width: 18%;
     }
   }
+  // CREATE PLAN
 
   & > .footer {
     display: flex;

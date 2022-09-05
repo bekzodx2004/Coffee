@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
   .sayt > .choose {
-    background: #c2905b !important;
     margin-bottom: 20px;
+    background: repeating-linear-gradient(#c2905b 0% 62%, white 62% 100%);
   }
   .sayt > .choose > .choose__block > .choose__block__card {
     max-width: 390px;
@@ -9,11 +9,11 @@
   .sayt > .works > .works__block > .works__block__card {
     max-width: 390px;
   }
-  .sayt > .works > .works__block > .works__block__card > :nth-child(3) {
-    top: -30px;
-    left: 80px;
-  }
-  .sayt > .works > .works__block > .works__block__card > .works__block__card__text {
+  .sayt
+    > .works
+    > .works__block
+    > .works__block__card
+    > .works__block__card__text {
     min-height: 424px;
   }
   .sayt > .country > .country__block > .country__block__card {
@@ -22,7 +22,141 @@
   .sayt > .plan__top > .works__block > .works__block__card {
     max-width: 390px !important;
   }
-  .sayt > .plan__top > .works__block > .works__block__card > .works__block__card__text {
+  .sayt
+    > .plan__top
+    > .works__block
+    > .works__block__card
+    > .works__block__card__text {
     min-height: 424px;
   }
-}/*# sourceMappingURL=responsive.css.map */
+}
+@media screen and (max-width: 1300px) {
+  .sayt > .header > .header__bottom > .header__bottom__text {
+    max-width: 500px;
+    padding-left: 50px;
+    box-sizing: border-box;
+  }
+  .sayt > .header > .header__bottom > .header__bottom__img {
+    max-width: 500px;
+  }
+  .sayt > .choose > .choose__block > .choose__block__card {
+    max-width: 300px;
+  }
+  .sayt > .works > .works__block > .works__block__card {
+    max-width: 300px;
+  }
+  .sayt
+    > .works
+    > .works__block
+    > .works__block__card
+    > .works__block__card__text {
+    min-height: 452px;
+  }
+  .sayt > .plan__top > .works__block > .works__block__card {
+    max-width: 300px !important;
+  }
+  .sayt
+    > .plan__top
+    > .works__block
+    > .works__block__card
+    > .works__block__card__text {
+    min-height: 452px;
+  }
+  .sayt > .commitment > :nth-child(1) {
+    max-width: 300px;
+  }
+  .sayt > .commitment > :nth-child(2) {
+    max-width: 600px;
+  }
+  .sayt > .quality > .quality__card {
+    max-width: 520px;
+    width: 100%;
+    margin: 38px;
+  }
+  .sayt > .quality > img {
+    max-width: 360px;
+    width: 100%;
+    margin-top: -300px;
+    opacity: 2;
+  }
+  .sayt > .country > .country__block > .country__block__card {
+    max-width: 300px;
+  }
+  .sayt > .country > .country__block > :nth-child(1) > h2 {
+    margin-top: -60px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sayt > .plan__bottom {
+    padding-right: 30px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .sayt > .collection {
+    display: flex;
+    flex-direction: column;
+  }
+  .sayt > .collection > .collection__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 400px !important;
+    width: 95%;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+  .sayt > .collection > .collection__block > :nth-child(1) {
+    max-width: 400px;
+    width: 100%;
+  }
+  .sayt > .collection > :nth-child(3) {
+    flex-direction: column !important;
+    align-self: flex-end !important;
+  }
+  .sayt > .collection > :nth-child(5) {
+    flex-direction: column !important;
+    align-self: flex-end !important;
+  }
+  .sayt > .choose {
+    background: #c2905b;
+  }
+  .sayt > .choose > .choose__block {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .sayt > .choose > .choose__block > .choose__block__card {
+    max-width: 433px;
+    align-self: flex-start;
+  }
+  .sayt > .choose > .choose__block > :nth-child(2) {
+    align-self: flex-end;
+  }
+  .sayt > .plan__bottom {
+    padding-right: 0px !important;
+    flex-direction: column;
+  }
+  .sayt > .plan__bottom > :nth-child(2) {
+    align-self: center;
+  }
+  .sayt > .works > .works__block {
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .sayt > .works > .works__block > .works__block__card {
+    max-width: 433px;
+    align-self: flex-end;
+  }
+  .sayt
+    > .works
+    > .works__block
+    > .works__block__card
+    > .works__block__card__text {
+    min-height: 452px;
+  }
+  .sayt > .works > .works__block > :nth-child(2) {
+    align-self: flex-start;
+  }
+} /*# sourceMappingURL=responsive.css.map */
