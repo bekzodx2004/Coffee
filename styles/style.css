@@ -622,11 +622,13 @@ body {
   margin: 10px;
   margin-top: 50px;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 .sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__head {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 .sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__head > h2 {
   font-family: "Roboto";
@@ -635,15 +637,27 @@ body {
   font-size: 40px;
   font-variant: small-caps;
   color: #000000;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
 }
 .sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__head > i {
   font-size: 30px;
   margin-right: 24px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
 }
 .sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  transition: all 2s;
+  transform: translateY(-300px);
+  transition: all 2s;
+  display: none;
 }
 .sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body > .dropdown__body__card {
   width: 208px;
@@ -652,6 +666,8 @@ body {
   padding-left: 16px;
   padding-top: 30px;
   margin-top: 20px;
+  transition: all 2s;
+  transition: all 2s;
   background: #c6dcd1;
 }
 .sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body > .dropdown__body__card > h3 {
@@ -684,7 +700,7 @@ body {
 }
 .sayt > .plan__bottom > .plan__bottom__dropdowns > .order {
   max-width: 640px;
-  width: 90%;
+  width: 85%;
   background: #c99b67;
   margin: auto;
   margin-top: 90px;

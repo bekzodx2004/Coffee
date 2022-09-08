@@ -301,6 +301,9 @@
     right: 0;
     width: 100px;
   }
+  .sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__head > h2 {
+    font-size: 14px;
+  }
   .sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body {
     flex-direction: column;
   }
