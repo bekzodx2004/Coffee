@@ -160,9 +160,9 @@
           }
 
           & > :nth-child(2) {
-            width: 150px;
-            top: -5px;
-            left: -140px;
+            width: 80px;
+            top: 10px;
+            left: -80px;
             z-index: 1;
           }
         }
@@ -305,7 +305,7 @@
 
     & > .quality {
       background: url(../images/quality.png) no-repeat center center / cover;
-      
+
       margin-top: 0;
       & > :nth-child(1) {
         width: 95%;
@@ -363,19 +363,148 @@
       }
     }
 
-    &>.country{
-
-      &>.country__block{
+    & > .country {
+      & > .country__block {
         flex-direction: column;
 
-        &>.country__block__card{
+        & > .country__block__card {
           max-width: 433px;
         }
-     
-        &>:nth-child(2){
+
+        & > :nth-child(2) {
           align-self: flex-end;
         }
       }
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .sayt {
+    & > .header {
+      & > .header__top {
+        flex-direction: column;
+        padding-bottom: 5px;
+
+        &>.header__icon{
+          margin: 10px;
+        }
+        &>ul{
+
+          &>li{
+            margin: 0;
+          }
+        }
+      }
+    }
+
+
+    & >.footer {
+     
+        &>ul{
+
+          &>li{
+            margin: 5px;
+          }
+        }
+      
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sayt {
+
+    &>.header{
+
+      &>.header__bottom{
+       
+        &>:nth-child(1){
+          padding-left: 5px;
+          padding-right: 5px;
+         &> h2{
+            font-size: 40px;
+          }
+        }
+
+      
+      }
+    }
+
+    &>.collection{
+      margin: 10px;
+
+      &>h2{
+        font-size: 35px;
+      }
+
+      &>.collection__block{
+
+        &>div{
+
+         &> h3{
+            font-size: 35px;
+          }
+        }
+      }
+    }
+
+    &>.choose{
+
+      &>h2{
+        font-size: 35px;
+        margin-bottom: 10px;
+      }
+
+      &>.choose__block{
+
+        &>.choose__block__card{
+
+          &>.yozuv{
+            width: 100px !important;
+          }
+        }
+      }
+    }
+
+    &>.works{
+
+      &>h2{
+        font-size: 35px;
+      }
+
+      &>.works__block{
+
+        &>.works__block__card{
+          
+          &>:nth-child(3){
+            top: -10px;
+            right: 0;
+            width:100px;
+
+          }
+        }
+        
+      }
+    }
+
+    &>.plan__bottom{
+      &>.plan__bottom__dropdowns{
+       &>.dropdown{
+        &>.dropdown__body{
+          flex-direction: column;
+
+          &>:nth-child(2){
+            align-self: center;
+          }
+          &>:nth-child(3){
+            align-self: flex-end;
+          }
+        }
+       }
+    }
+    }
+   
+  }
+}
+

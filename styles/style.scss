@@ -50,7 +50,6 @@ body {
             font-weight: 700;
             font-size: 12px;
             /* identical to box height */
-            line-height: 14px;
             letter-spacing: 1px;
             text-transform: uppercase;
 
@@ -81,7 +80,6 @@ body {
           font-style: normal;
           font-weight: 700;
           font-size: 64px;
-          line-height: 75px;
           max-width: 447px;
           color: #000000;
         }
@@ -91,7 +89,6 @@ body {
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
-          line-height: 24px;
           /* or 150% */
           max-width: 447px;
           color: #000000;
@@ -109,7 +106,6 @@ body {
           font-style: normal;
           font-weight: 500;
           font-size: 16px;
-          line-height: 19px;
           /* identical to box height */
 
           text-align: center;
@@ -147,7 +143,6 @@ body {
       font-style: normal;
       font-weight: 700;
       font-size: 50px;
-      line-height: 59px;
       /* identical to box height */
 
       text-align: center;
@@ -172,7 +167,6 @@ body {
           font-style: normal;
           font-weight: 500;
           font-size: 48px;
-          line-height: 56px;
           font-variant: small-caps;
 
           color: #333333;
@@ -182,8 +176,6 @@ body {
           font-style: normal;
           font-weight: 400;
           font-size: 22px;
-          line-height: 34px;
-          /* or 155% */
 
           color: #333333;
           max-width: 390px;
@@ -239,7 +231,6 @@ body {
       font-style: normal;
       font-weight: 700;
       font-size: 50px;
-      line-height: 59px;
       /* identical to box height */
 
       text-align: center;
@@ -252,7 +243,6 @@ body {
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
-      line-height: 28px;
       /* or 175% */
       margin-top: 10px;
       text-align: center;
@@ -272,7 +262,7 @@ body {
 
       & > .choose__block__card {
         max-width: 433px;
-        width: 100%;
+        width: 95%;
         margin: 10px;
         position: relative;
         margin-top: 30px;
@@ -286,7 +276,6 @@ body {
           font-style: normal;
           font-weight: 500;
           font-size: 30px;
-          line-height: 35px;
           font-variant: small-caps;
           margin-top: 28px;
           color: #333333;
@@ -296,7 +285,6 @@ body {
           font-style: normal;
           font-weight: 400;
           font-size: 18px;
-          line-height: 28px;
           /* or 156% */
 
           color: #333333;
@@ -325,7 +313,6 @@ body {
       font-style: normal;
       font-weight: 700;
       font-size: 50px;
-      line-height: 59px;
       /* identical to box height */
 
       text-align: center;
@@ -341,7 +328,7 @@ body {
 
       & > .works__block__card {
         max-width: 433px;
-        width: 100%;
+        width: 95%;
         margin: 10px;
 
         position: relative;
@@ -378,7 +365,6 @@ body {
             font-style: normal;
             font-weight: 400;
             font-size: 64px;
-            line-height: 75px;
             /* identical to box height */
 
             font-variant: small-caps;
@@ -392,7 +378,6 @@ body {
             font-style: normal;
             font-weight: 500;
             font-size: 40px;
-            line-height: 47px;
             font-variant: small-caps;
             margin-top: 45px;
             margin-bottom: 10px;
@@ -404,7 +389,6 @@ body {
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
-            line-height: 28px;
             /* or 156% */
 
             color: #333333;
@@ -432,7 +416,6 @@ body {
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
-      line-height: 19px;
       /* identical to box height */
 
       text-align: center;
@@ -495,8 +478,6 @@ body {
         font-style: normal;
         font-weight: 700;
         font-size: 50px;
-        line-height: 59px;
-        font-variant: small-caps;
 
         color: #ffffff;
       }
@@ -505,8 +486,6 @@ body {
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
-        line-height: 30px;
-        /* or 167% */
 
         color: #ffffff;
 
@@ -535,8 +514,6 @@ body {
       font-style: normal;
       font-weight: 700;
       font-size: 50px;
-      line-height: 59px;
-      /* identical to box height */
 
       text-align: center;
       font-variant: small-caps;
@@ -576,8 +553,6 @@ body {
           font-style: normal;
           font-weight: 500;
           font-size: 40px;
-          line-height: 47px;
-          font-variant: small-caps;
 
           color: #333333;
         }
@@ -616,7 +591,7 @@ body {
 
       & > .works__block__card {
         max-width: 433px;
-        width: 100%;
+        width: 95%;
         margin: 10px;
 
         position: relative;
@@ -653,7 +628,6 @@ body {
             font-style: normal;
             font-weight: 400;
             font-size: 64px;
-            line-height: 75px;
             /* identical to box height */
 
             font-variant: small-caps;
@@ -667,7 +641,6 @@ body {
             font-style: normal;
             font-weight: 500;
             font-size: 40px;
-            line-height: 47px;
             font-variant: small-caps;
             margin-top: 45px;
             margin-bottom: 10px;
@@ -679,7 +652,6 @@ body {
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
-            line-height: 28px;
             /* or 156% */
 
             color: #333333;
@@ -715,7 +687,6 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 28px;
-        line-height: 33px;
         /* identical to box height */
         padding-bottom: 5px;
         font-variant: small-caps;
@@ -751,8 +722,6 @@ body {
             font-style: normal;
             font-weight: 700;
             font-size: 40px;
-            line-height: 47px;
-            /* identical to box height */
 
             font-variant: small-caps;
 
@@ -785,7 +754,6 @@ body {
               font-style: normal;
               font-weight: 500;
               font-size: 24px;
-              line-height: 28px;
               font-variant: small-caps;
 
               color: #333333;
@@ -795,7 +763,6 @@ body {
               font-style: normal;
               font-weight: 400;
               font-size: 18px;
-              line-height: 24px;
               /* or 133% */
               margin-top: 10px;
               margin-right: 12px;
@@ -817,7 +784,7 @@ body {
       }
       & > .order {
         max-width: 640px;
-        width: 95%;
+        width: 90%;
         background: #c99b67;
         margin: auto;
         margin-top: 90px;
@@ -830,7 +797,6 @@ body {
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
-          line-height: 19px;
           /* identical to box height */
 
           text-transform: uppercase;
@@ -843,7 +809,6 @@ body {
           font-style: normal;
           font-weight: 500;
           font-size: 24px;
-          line-height: 34px;
           /* or 142% */
 
           color: #ffffff;
@@ -866,8 +831,6 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
-        /* identical to box height */
 
         text-align: center;
         letter-spacing: 1px;
@@ -937,8 +900,6 @@ body {
           font-style: normal;
           font-weight: 700;
           font-size: 12px;
-          /* identical to box height */
-          line-height: 14px;
           letter-spacing: 1px;
           text-transform: uppercase;
 
