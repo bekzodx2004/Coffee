@@ -9,11 +9,7 @@
   .sayt > .works > .works__block > .works__block__card {
     max-width: 390px;
   }
-  .sayt
-    > .works
-    > .works__block
-    > .works__block__card
-    > .works__block__card__text {
+  .sayt > .works > .works__block > .works__block__card > .works__block__card__text {
     min-height: 424px;
   }
   .sayt > .country > .country__block > .country__block__card {
@@ -22,11 +18,7 @@
   .sayt > .plan__top > .works__block > .works__block__card {
     max-width: 390px !important;
   }
-  .sayt
-    > .plan__top
-    > .works__block
-    > .works__block__card
-    > .works__block__card__text {
+  .sayt > .plan__top > .works__block > .works__block__card > .works__block__card__text {
     min-height: 424px;
   }
 }
@@ -45,21 +37,13 @@
   .sayt > .works > .works__block > .works__block__card {
     max-width: 300px;
   }
-  .sayt
-    > .works
-    > .works__block
-    > .works__block__card
-    > .works__block__card__text {
+  .sayt > .works > .works__block > .works__block__card > .works__block__card__text {
     min-height: 452px;
   }
   .sayt > .plan__top > .works__block > .works__block__card {
     max-width: 300px !important;
   }
-  .sayt
-    > .plan__top
-    > .works__block
-    > .works__block__card
-    > .works__block__card__text {
+  .sayt > .plan__top > .works__block > .works__block__card > .works__block__card__text {
     min-height: 452px;
   }
   .sayt > .commitment > :nth-child(1) {
@@ -92,6 +76,84 @@
   }
 }
 @media screen and (max-width: 1024px) {
+  .sayt > .header > .header__bottom > :nth-child(1) > :nth-child(1) {
+    z-index: 2;
+  }
+  .sayt > .header > .header__bottom > :nth-child(2) > :nth-child(1) {
+    display: none;
+  }
+  .sayt > .header > .header__bottom > :nth-child(2) > :nth-child(2) {
+    width: 150px;
+    top: -5px;
+    left: -140px;
+    z-index: 1;
+  }
+  .sayt > .header > .home__bg > :nth-child(1) {
+    background: url(../images/home1.png) no-repeat center center/cover;
+    max-width: 1024px;
+    padding: 80px 0;
+    text-align: center;
+  }
+  .sayt > .header > .home__bg > :nth-child(1) > h2 {
+    max-width: 1024px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sayt > .header > .home__bg > :nth-child(1) > p {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sayt > .header > .home__bg > :nth-child(1) > button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .sayt > .header > .about__bg > :nth-child(1) {
+    background: url(../images/about.png) no-repeat center center/cover;
+    max-width: 1024px;
+    padding: 80px 0;
+    text-align: center;
+  }
+  .sayt > .header > .about__bg > :nth-child(1) > h2 {
+    max-width: 1024px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sayt > .header > .about__bg > :nth-child(1) > p {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sayt > .header > .about__bg > :nth-child(1) > button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .sayt > .header > .plan__bg > :nth-child(1) {
+    background: url(../images/plan1.png) no-repeat center center/cover;
+    max-width: 1024px;
+    padding: 80px 0;
+    text-align: center;
+  }
+  .sayt > .header > .plan__bg > :nth-child(1) > h2 {
+    max-width: 1024px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sayt > .header > .plan__bg > :nth-child(1) > p {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sayt > .header > .plan__bg > :nth-child(1) > button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
   .sayt > .collection {
     display: flex;
     flex-direction: column;
@@ -140,6 +202,18 @@
   .sayt > .plan__bottom > :nth-child(2) {
     align-self: center;
   }
+  .sayt > .quality {
+    background: url(../images/quality.png) no-repeat center center/cover;
+    margin-top: 0;
+  }
+  .sayt > .quality > :nth-child(1) {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sayt > .quality > :nth-child(2) {
+    display: none;
+  }
   .sayt > .works > .works__block {
     width: 95%;
     margin: auto;
@@ -149,14 +223,34 @@
     max-width: 433px;
     align-self: flex-end;
   }
-  .sayt
-    > .works
-    > .works__block
-    > .works__block__card
-    > .works__block__card__text {
+  .sayt > .works > .works__block > .works__block__card > .works__block__card__text {
     min-height: 452px;
   }
   .sayt > .works > .works__block > :nth-child(2) {
     align-self: flex-start;
   }
-} /*# sourceMappingURL=responsive.css.map */
+  .sayt > .plan__top > .works__block {
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .sayt > .plan__top > .works__block > .works__block__card {
+    max-width: 433px !important;
+    align-self: flex-end;
+  }
+  .sayt > .plan__top > .works__block > .works__block__card > .works__block__card__text {
+    min-height: 452px;
+  }
+  .sayt > .plan__top > .works__block > :nth-child(2) {
+    align-self: flex-start;
+  }
+  .sayt > .country > .country__block {
+    flex-direction: column;
+  }
+  .sayt > .country > .country__block > .country__block__card {
+    max-width: 433px;
+  }
+  .sayt > .country > .country__block > :nth-child(2) {
+    align-self: flex-end;
+  }
+}/*# sourceMappingURL=responsive.css.map */

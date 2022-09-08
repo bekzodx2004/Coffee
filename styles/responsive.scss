@@ -147,6 +147,105 @@
 
 @media screen and (max-width: 1024px) {
   .sayt {
+    & > .header {
+      & > .header__bottom {
+        & > :nth-child(1) {
+          & > :nth-child(1) {
+            z-index: 2;
+          }
+        }
+        & > :nth-child(2) {
+          & > :nth-child(1) {
+            display: none;
+          }
+
+          & > :nth-child(2) {
+            width: 150px;
+            top: -5px;
+            left: -140px;
+            z-index: 1;
+          }
+        }
+      }
+
+      & > .home__bg {
+        & > :nth-child(1) {
+          background: url(../images/home1.png) no-repeat center center / cover;
+          max-width: 1024px;
+          padding: 80px 0;
+          text-align: center;
+          & > h2 {
+            max-width: 1024px;
+
+            color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          & > p {
+            color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          & > button {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
+        }
+      }
+
+      & > .about__bg {
+        & > :nth-child(1) {
+          background: url(../images/about.png) no-repeat center center / cover;
+          max-width: 1024px;
+          padding: 80px 0;
+          text-align: center;
+          & > h2 {
+            max-width: 1024px;
+
+            color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          & > p {
+            color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          & > button {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
+        }
+      }
+
+      & > .plan__bg {
+        & > :nth-child(1) {
+          background: url(../images/plan1.png) no-repeat center center / cover;
+          max-width: 1024px;
+          padding: 80px 0;
+          text-align: center;
+          & > h2 {
+            max-width: 1024px;
+
+            color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          & > p {
+            color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          & > button {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
+        }
+      }
+    }
     & > .collection {
       display: flex;
       flex-direction: column;
@@ -204,6 +303,20 @@
       }
     }
 
+    & > .quality {
+      background: url(../images/quality.png) no-repeat center center / cover;
+      
+      margin-top: 0;
+      & > :nth-child(1) {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      & > :nth-child(2) {
+        display: none;
+      }
+    }
+
     & > .works {
       & > .works__block {
         width: 95%;
@@ -223,6 +336,44 @@
 
         & > :nth-child(2) {
           align-self: flex-start;
+        }
+      }
+    }
+
+    & > .plan__top {
+      & > .works__block {
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+        & > .works__block__card {
+          max-width: 433px !important;
+          align-self: flex-end;
+          // & > :nth-child(3) {
+          //   top: -30px;
+          //   left: 80px;
+          // }
+          & > .works__block__card__text {
+            min-height: 452px;
+          }
+        }
+
+        & > :nth-child(2) {
+          align-self: flex-start;
+        }
+      }
+    }
+
+    &>.country{
+
+      &>.country__block{
+        flex-direction: column;
+
+        &>.country__block__card{
+          max-width: 433px;
+        }
+     
+        &>:nth-child(2){
+          align-self: flex-end;
         }
       }
     }
