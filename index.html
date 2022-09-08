@@ -11,11 +11,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <link rel="stylesheet" href="WOW-master/css/libs/animate.css">
   </head>
   <body>
     <div class="sayt">
-      <div class="header">
-        <div class="header__top " >
+      <div class="header ">
+        <div class="header__top wow bounce " data-wow-duration="2s" data-wow-iteration="2"   >
           <img src="images/icon.png" alt="" class="header__icon" />
           <ul>
             <li><a href="index.html">HOME</a></li>
@@ -25,18 +32,18 @@
         </div>
 
         <div class="header__bottom home__bg">
-          <div class="header__bottom__text ">
+          <div class="header__bottom__text  wow animate__lightSpeedInLeft" data-wow-duration="1s">
             <h2>Good coffee is made simply.</h2>
             <p>
               Start your mornings with the world’s best coffees. Try our
               expertly curated artisan coffees from our best roasters delivered
               directly to your door, at your schedule.
             </p>
-            <button>Create your plan</button>
+            <button class="wow flash " data-wow-duration="1s" data-wow-delay="2s">Create your plan</button>
           </div>
-          <div class="header__bottom__img">
+          <div class="header__bottom__img wow animate__fadeInRight">
             <img src="images/home1.png" alt="" class="" />
-            <img src="images/emblema.png" class="emblema" />
+            <img src="images/emblema.png" class="emblema wow tada" data-wow-iteration="2" />
           </div>
         </div>
       </div>
@@ -44,7 +51,7 @@
       <div class="collection">
         <h2>our collection</h2>
         <div class="collection__block">
-          <img src="images/collection1.png" alt="" />
+          <img src="images/collection1.png" alt="" class="wow animate__zoomInDown"  data-wow-offset="250"/>
           <div>
             <h3>Danche</h3>
             <p>
@@ -55,7 +62,7 @@
         </div>
 
         <div class="collection__block">
-          <img src="images/collection2.png" alt="" />
+          <img src="images/collection2.png" alt=""  class="wow animate__zoomInRight"  data-wow-offset="250"/>
           <div>
             <h3>Gran Espresso</h3>
             <p>
@@ -66,7 +73,7 @@
         </div>
 
         <div class="collection__block">
-          <img src="images/collection3.png" alt="" />
+          <img src="images/collection3.png" alt=""  class="wow animate__zoomInLeft"  data-wow-offset="250"/>
           <div>
             <h3>Piccollo</h3>
             <p>
@@ -77,7 +84,7 @@
         </div>
 
         <div class="collection__block">
-          <img src="images/collection4.png" alt="" />
+          <img src="images/collection4.png" alt=""  class="wow animate__zoomInUp"  data-wow-offset="250"/>
           <div>
             <h3>Planalto</h3>
             <p>
@@ -92,15 +99,15 @@
         <img src="images/yaproq__right2.png" alt="" class="yaproq3" />
         <img src="images/chap_yaproq2.png" alt="" class="yaproq4" />
       </div>
-      <div class="choose">
-        <h2>Why choose us?</h2>
+      <div class="choose"> 
+        <h2 class="wow shake">Why choose us?</h2>
         <p>
           A large part of our role is choosing which particular coffees will be
           featured in our range. This means working closely with the best coffee
           growers to give you a more impactful experience on every level.
         </p>
         <div class="choose__block">
-          <div class="choose__block__card">
+          <div class="choose__block__card  wow animate__jackInTheBox" data-wow-offset="500">
             <img src="images/choose1.png" alt="" />
             <h3>Best quality</h3>
             <p>
@@ -109,7 +116,7 @@
             </p>
             <img src="images/yozuv.png" alt="" class="yozuv" />
           </div>
-          <div class="choose__block__card">
+          <div class="choose__block__card   wow animate__jackInTheBox" data-wow-offset="500">
             <img src="images/choose2.png" alt="" />
             <h3>Exclusive benefits</h3>
             <p>
@@ -117,7 +124,7 @@
               first shipment.
             </p>
           </div>
-          <div class="choose__block__card">
+          <div class="choose__block__card   wow animate__jackInTheBox" data-wow-offset="500">
             <img src="images/choose3.png" alt="" />
             <h3>Free shipping</h3>
             <p>
@@ -131,7 +138,7 @@
         <h2>How it works</h2>
 
         <div class="works__block">
-          <div class="works__block__card">
+          <div class="works__block__card wow animate__zoomInRight">
             <div class="chiziqli">
               <div></div>
               <div></div>
@@ -146,7 +153,7 @@
               </p>
             </div>
           </div>
-          <div class="works__block__card">
+          <div class="works__block__card  wow animate__zoomInLeft">
             <div class="chiziqli">
               <div></div>
               <div></div>
@@ -161,7 +168,7 @@
               </p>
             </div>
           </div>
-          <div class="works__block__card">
+          <div class="works__block__card  wow animate__zoomInRight">
             <div class="chiziqli">
               <div></div>
             </div>
@@ -179,7 +186,7 @@
           </div>
         </div>
 
-        <button>Create your plan</button>
+        <button class="wow shake">Create your plan</button>
       </div>
       <div class="footer">
         <img src="images/icon.png" alt="" class="footer__icon" />
@@ -190,11 +197,17 @@
         </ul>
 
         <div class="footer__websites">
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
-          <a href=""><i class="fa-brands fa-twitter"></i></a>
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook  wow rotateIn" data-wow-duration="2s"></i></a>
+          <a href=""><i class="fa-brands fa-twitter  wow rotateIn" data-wow-duration="2s"></i></a>
+          <a href=""><i class="fa-brands fa-instagram  wow rotateIn" data-wow-duration="2s"></i></a>
         </div>
       </div>
     </div>
+
+
+    <script src="WOW-master/dist/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
   </body>
 </html>
