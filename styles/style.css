@@ -650,6 +650,9 @@ body {
   -moz-user-select: none;
        user-select: none;
 }
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__head > .aylan {
+  transform: rotate(180deg);
+}
 .sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body {
   display: flex;
   justify-content: space-between;
@@ -697,6 +700,10 @@ body {
 .sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .dropdown__body > .yashil > p {
   margin-top: 10px;
   color: #ffffff;
+}
+.sayt > .plan__bottom > .plan__bottom__dropdowns > .dropdown > .ochiq {
+  display: flex;
+  transform: translateY(0);
 }
 .sayt > .plan__bottom > .plan__bottom__dropdowns > .order {
   max-width: 640px;

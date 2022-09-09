@@ -718,7 +718,6 @@ body {
           align-items: center;
           cursor: pointer;
 
-
           & > h2 {
             font-family: "Roboto";
             font-style: normal;
@@ -739,6 +738,9 @@ body {
             -webkit-user-select: none; /* Safari */
             -ms-user-select: none; /* IE 10 and IE 11 */
             user-select: none; 
+          }
+          &>.aylan{
+            transform : rotate(180deg) ;
           }
         }
 
@@ -795,6 +797,12 @@ body {
             }
           }
         }
+
+        &>.ochiq{
+          display: flex;
+          transform: translateY(0);
+        }
+       
       }
       & > .order {
         max-width: 640px;
